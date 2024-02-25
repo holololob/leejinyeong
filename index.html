@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>강서구청</title>
+
+  <!-- 메타데이터 입력하기!!! -->
+
+  <link rel="icon" href="./favicon.png" />
+  <!-- reset.css cdn 브라우저 css 초기화 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" />
+  <!-- 구글 웹폰트 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+  <!-- 구글 아이콘 -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <!-- Swiper 6버전 (swiper-container로 시작해야 함) -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+
+  <!-- 외부에서 가져온 라이브러리를 프로젝트에 연결한 뒤 -->
+  <!-- 그 내용으로 main.js에 추가 코드를 작성하도록 main.js 연결 스크립트 위에 배치할 것. -->
+  <script defer src="./js/main.js"></script>
+
+</head>
+<body>
+  <header>
+
+  <div class="head-menu">
+    <div class="inner">
+      <!-- 스벅 페이지처럼 메뉴마다 펼쳐지는 게 아니라 전체가 한꺼번에 펼쳐지는 구조임.. -->
+      <div class="head-menu__left">
+        <a href="/" class="logo">
+          <img src="./images/gangseo_logo_2024.png" alt="GANGSEO-GU" />
+        </a>
+        <ul class="menu">
+          <li>
+            <a href="javascript:void(0)">강서구</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">구의회</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">문화관광</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">보건소</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">어린이</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">부서</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">동주민</a>
+          </li>
+        </ul>
+        <div class="site-wrap">
+          <a href="javascript:void(0)">주요사이트</a>
+        </div>
+      </div>
+      <ul class="head-menu__right">
+        <li>
+          <a href="javascript:void(0)">통합예약</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">로그인</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">회원가입</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">English</a>
+        </li>
+      </ul>
+
+      <div class="main-menu">
+        <ul class="menu">
+          <li>
+            <a href="javascript:void(0)">종합민원</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">소통과 참여</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">행정정보</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">강서소식</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">우리구 소개</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">분야별 정보</a>
+          </li>
+        </ul>
+      </div>
+      <div class="search">
+        <input type="text" />
+        <div class="material-icons">search</div>
+      </div>
+    </div>
+  </div>
+  </header>
+
+
+
+  <!-- BANNER -->
+  <section class="banner">
+    <div class="inner">
+
+      <div class="banner__left">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/banner1_01.jpg" alt="강서구 생활안전보험 안내" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/banner1_02.jpg" alt="전세피해 지원금 신청 안내" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/banner1_03.jpg" alt="강서구 겨울철 종합 대책" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/banner1_04.jpg" alt="내 집, 내 점포 앞 눈 치우기 캠페인" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/banner1_05.jpg" alt="강서구 통합신청사 건립 안내" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="banner__right">
+        <div class="banner__mayer">
+          <img src="./images/section_banner_mayor_name.png" alt="강서구청장 진교훈입니다." />
+          <img src="./images/section_banner_mayor2023.png" alt="강서구청장" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- SERVICE -->
+  <section class="service">
+
+    <div class="title">
+      쉽고 빠르게<br />
+      <strong>주요민원 서비스</strong>
+    </div>
+    <div class="info">
+      실생활에 필요한 정보를<br />
+      분야별로 찾아보세요.
+    </div>
+    <div class="right-element">
+      <div class="service-tab">
+        <a href="">민원상담</a>
+        <!-- 버튼에 반전효과 있음. btn--reverse 이런 거 만들어보기 -->
+        <ul class="service-list">
+          <li>
+            <a href="javascript:void(0)">민원상담</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">민원실 이용안내</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">민원신청(정부24)</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">민원서식 조회</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">주민센터<br />민원대기 현황</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">강서구청<br />민원대기 현황</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">청탁금지법위반<br />갑질신고</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">구민제안</a>
+          </li>
+        </ul>
+        <a href="">생활정보</a>
+        <ul class="service-list">
+          <li>
+            <a href="javascript:void(0)">구정소식 문자알림신청</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">여권발급 이용안내</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">주정차 위반조회</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">일자리센터</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">자치회관</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">평생학습관</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">강서 메타버스 체험관</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">강서구 테마지도</a>
+          </li>
+        </ul>
+        <a href="">예약신청</a>
+        <ul class="service-list">
+          <li>
+            <a href="javascript:void(0)">대형폐기물 처리신청</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">통합예약</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">공공체육시설 예약</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">문화공연예약</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">대기오염 예경보</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">모바일봉사자증</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">OK!홍반장 생활민원</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- NOTICE -->
+  <section class="notice">
+    <div class="inner">
+      <div class="notice-news">
+        <h4>강서구 소식</h4>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="alarmzone">
+        <h6>알림존</h6>
+        <div class="alarmzone-slide">
+          <div class="alarm-control-bar">
+
+          </div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/banner2_01.jpg" alt="제15기 강서꿈동산 어린이기자 모집" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/banner2_02.jpg" alt="서울 엄마아빠 택시" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/banner2_03.jpg" alt="도심에서 즐기는 텃밭 가꾸기" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/banner2_04.jpg" alt="전국 폐지수집노인 전수조사" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/banner2_05.jpg" alt="아동참여위원모집" />
+              </div>
+              <!-- 슬라이드 25개인데 너무 많아서 생략 -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- PHOTO -->
+  <section class="photo"></section>
+  <div class="inner">
+    <div class="thumb-img-wrap photo">
+      <h4>강서구 사진</h4>
+      <span>강서구 소식을 사진으로 만나요</span>
+      <img src="" alt="새마을회 지회장 이취임식" />
+      <img src="" alt="강서구 장애인 욕구조사 성과공유 토론회" />
+      <!-- 이렇게 비효율적으로 이미지를 넣을 것 같지 않은데
+      class="thumb-list" id="photoGallery" 라이브러리인지? 찾아보기 -->
+    </div>
+    <div class="thumb-img-wrap tv">
+      <h6>i강서TV</h6>
+      <span>강서구청 방송국</span>
+    </div>
+  </div>
+  <section class="event">
+    <div class="inner">
+      <div class="magazine-wrap">
+        <div class="left-element">
+          <div>MAGAZINE</div>
+          <img src="./images/news_text01.png" alt="강서까치뉴스" />
+        </div>
+        <div class="right-element">
+          <img src="./images/news_text02.png" alt="주간 강서까치뉴스" />
+          <div>
+            강서 까치뉴스의<br />
+            주간소식을<br />
+            알려드립니다.
+          </div>
+        </div>
+      </div>
+      <div class="sns-wrap">
+        <h6>강서 SNS</h6>
+						<a href="https://pf.kakao.com/_YCxfts">
+						</a>
+						<a href="https://blog.naver.com/gangseokkachi">
+						</a>
+						<a href="https://www.facebook.com/smartgangseo">
+						</a>
+						<a href="https://www.instagram.com/gangseogu_office/">
+						</a>
+						<a href="https://mobile.twitter.com/lymefeel">
+						</a>
+						<a href="https://www.daangn.com/kr/business-profiles/%EC%84%9C%EC%9A%B8-%EA%B0%95%EC%84%9C%EA%B5%AC%EC%B2%AD-0860705fa6af408098586c06d4e8c625/">
+						</a>
+						<a href="https://www.youtube.com/user/gangseotv">
+						</a>
+						<a href="https://www.gangseo.seoul.kr/gs040900">
+      </div>
+    </div>
+  </section>
+
+    <!-- <footer>
+    <div class="inner">
+      <div class="menu">
+        <li>
+          <a href="javascript:void(0)">개인정보처리방침</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">찾아오시는 길</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">전화번호 안내</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">저작권정책</a>
+        </li>
+      </div>
+      <div class="sns">
+        <img src="" alt="">
+      </div>
+    </div>
+  </footer> -->
+</body>
+</html>

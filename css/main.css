@@ -1,0 +1,173 @@
+/* COMMON */
+body {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: "Nanum Gothic", sans-serif;
+}
+img {
+  display: block;
+}
+/* 공백제거용 block 설정 */
+a {
+  text-decoration: none;
+}
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+/* HEADER */
+header {
+  position: relative;
+  display: flex;
+  font-weight: 700;
+}
+header .head-menu {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  /* background-color: olivedrab; */
+}
+header .head-menu .inner {
+
+}
+header .head-menu .inner .head-menu__left {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+header .head-menu .inner .head-menu__left .logo {
+  display: flex;
+  margin: 0 16px;
+  align-items: center;
+}
+header .head-menu .inner .head-menu__left .menu {
+  display: flex;
+  margin: auto;
+}
+header .head-menu .inner .head-menu__left ul.menu a:hover {
+  color: orange;
+}
+header .head-menu .inner .head-menu__left .site-wrap {
+  display: flex;
+  margin: auto;
+}
+header .head-menu .inner .head-menu__left .site-wrap a {
+  color: orangered;
+  margin: 0 20px;
+}
+header .head-menu .inner .head-menu__right {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  align-items: center;
+}
+header .head-menu ul li a {
+  color: #3e3e3e;
+  display: block;
+  margin: 0 11px;
+}
+header .head-menu .head-menu__left ul li::before {
+  content: "·";
+  width: 1px;
+  height: 16px;
+  color: #ccc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+header .head-menu .head-menu__left ul li:first-child::before {
+  display: none;
+}
+header .head-menu .search {
+  position: absolute;
+  top: 160px;
+  display: flex;
+}
+header .head-menu .search input {
+  
+  width: 540px;
+  height: 60px;
+  border: 5px solid orange;
+  border-radius: 10px;
+}
+header .head-menu .search .material-icons {
+  height: 24px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 570px;
+  margin: auto;
+}
+
+header .main-menu {
+  height: 62px;
+  position: absolute;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #797979;
+  color: #fff;
+  display: flex;
+}
+header .main-menu ul {
+  display: flex;
+}
+header .main-menu ul li {
+  width: 200px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+header .main-menu ul li a {
+  color: #fff;
+}
+
+
+/* BANNER */
+.banner {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 260px;
+}
+.banner .banner__left {
+  display: flex;
+  width: 780px;
+}
+.banner .banner__right {
+  display: flex;
+  
+}
+.banner .banner__right .banner__mayer {
+  
+}
+.banner .banner__right .banner__mayer img {
+  
+}
+.service {
+
+}
+.notice {
+
+}
+.photo {
+
+}
+.news {
+
+}
