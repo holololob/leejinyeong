@@ -1,6 +1,6 @@
 # 👀 자신이 원하는 사이트 레이아웃 클론
 - 실제 사이트 주소: https://www.gangseo.seoul.kr/index
-- 클론 사이트 주소: 
+- 클론 사이트 주소: https://holob-clone-01.netlify.app/
 
 ## 이 사이트를 선택한 이유
 - 강의를 듣기 전 html, css를 활용해 레이아웃 제작을 시도해본 적이 있는 페이지입니다.
